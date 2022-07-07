@@ -52,7 +52,7 @@ body{
 #payment-section form input{
    border: none;
    border-bottom: 1px solid rgb(77, 77, 77);
-   width: 50%;
+   width: 60%;
    text-align: center;
    padding: 20px;
 }
@@ -65,4 +65,86 @@ body{
     border-radius: 5px;
     margin: 20px 0px;
     display: inline-block;
+}
+#donation-plan{
+    text-align: center;
+}
+
+.choice-section .option-div{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.choice-section #food-div{
+    background-color: #a3e6dfbf;
+}
+.choice-section #shelter-div{
+    background-color: #eb90909b;
+}
+.choice-section #education-div{
+    background-color: #f4f59e;
+}
+
+#message-section{
+    padding: 40px;
+    display: flex;
+}
+#message-section .messege-div{
+    width: 50%;
+    text-align: right;
+    padding: 10px 30px;
+}
+#message-section #img-div img{
+    width: 100%;
+}
+#message-section #text-div h1{
+    font-size: 38px;
+}
+#message-section #text-div a{
+    text-decoration: none;
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4.4px;
+}
+#message-section-2{
+    display: flex;
+}
+#message-section-2 .div{
+    width: 50%;
+    margin-left: 10%;
+}
+#message-section-2 #text-div button{
+    text-decoration: none;
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4.4px;
+    border: none;
+    font-size: 18px bold;
+}
+#newsletter-section{
+    text-align: center;
+}
+#newsletter-section form{
+    background-color: rgba(248, 232, 115, 0.493);
+    display: inline-block;
+    padding: 50px 60px;
+    width: 50%;
+}
+#newsletter-section form input{
+    width: 250px;
+    padding: 10px 3px;
+    border: none;
+}
+#newsletter-section form button{
+    padding: 10px 3px;
+    width: 100px;
+    border: none;
+    background-color: tomato;
+    color: #fff;
 }
